@@ -27,7 +27,7 @@ int main()
     BIGNUM *d = BN_new();
     BIGNUM *message = BN_new();
 
-    //initialize p, q, e, one
+    //initialize n, e, M
     BN_hex2bn(&n, "DCBFFE3E51F62E09CE7032E2677A78946A849DC4CDDE3A4D0CB81629242FB1A5");
     printBN("n = ", n);
     BN_hex2bn(&e, "010001");
