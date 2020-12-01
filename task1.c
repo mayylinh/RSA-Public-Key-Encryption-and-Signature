@@ -29,7 +29,7 @@ int main()
 	BIGNUM *phin = BN_new();
 	BIGNUM *d = BN_new();
 
-	//initalize p, q, e, one
+	//initialize p, q, e, one
 	BN_hex2bn(&p, "F7E75FDC469067FFDC4E847C51F452DF");
 	printBN("p = ", p);
 	BN_hex2bn(&q, "E85CED54AF57E53E092113E62F436F4F");
